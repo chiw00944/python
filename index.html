@@ -17,32 +17,27 @@
                 <li><a href="#outfit-selection">Select Outfit</a></li>
                 <li><a href="#outfit-examples">Outfit Examples</a></li>
                 <li><a href="#contact">Contact Us</a></li>
-                <li><a href="#shopee">Shopee Store</a></li>
+                <li><a href="#shopee-products">Shopee Store</a></li> <!-- เปลี่ยน ID เป็น shopee-products -->
             </ul>
         </nav>
     </header>
     
     <main>
-        <section id="outfit-selection">
-            <h2>Select Your Outfit</h2>
-            <form>
-                <label for="clothing-type">Clothing Type:</label>
-                <select id="clothing-type" name="clothing-type">
-                    <option value="Top">Top</option>
-                    <option value="Bottom">Bottom</option>
-                    <option value="accessory">Accessory</option>
-                    <option value="jacket">Jacket</option>
-                    <option value="shoes">Shoes</option>
-                    <option value="hat">Hat</option>
+        <section id="shopee-products"> <!-- เปลี่ยน ID เป็น shopee-products -->
+            <h2>Shopee Store</h2>
+        
+            <!-- Add a form for filtering categories -->
+            <form id="clothing-form">
+                <label for="clothing-category">Clothing Category:</label>
+                <select id="clothing-category" name="clothing-category">
+                    <option value="all">All</option>
+                    <option value="mens-casual">Men's Casual</option>
+                    <option value="mens-business">Men's Business</option>
+                    <option value="mens-sporty">Men's Sporty</option>
+                    <option value="womens-casual">Women's Casual</option>
+                    <option value="womens-business">Women's Business</option>
+                    <option value="womens-sporty">Women's Sporty</option>
                 </select>
-
-                <label for="color">Color:</label>
-                <input type="color" id="color" name="color">
-
-                <label for="size">Size:</label>
-                <input type="text" id="size" name="size">
-
-                <button type="submit">Submit</button>
             </form>
         </section>
 
@@ -52,15 +47,15 @@
                 <div class="category">
                     <h3>Men's Outfits</h3>
                     <div class="outfit-gallery">
-                        <div class="outfit-card">
+                        <div class="outfit-card mens-casual">
                             <img src="https://down-th.img.susercontent.com/file/386150c75e48d88907619518f401b501" alt="Men's Casual Look">
                             <p>Men's Casual Look</p>
                         </div>
-                        <div class="outfit-card">
-                            <img src="https://down-th.img.susercontent.com/file/th-11134201-7r98r-lyob1hxjnblt43" alt="Men's Business Attire">
-                            <p>Men's Business Attire</p>
+                        <div class="outfit-card mens-business">
+                            <img src="https://down-th.img.susercontent.com/file/th-11134201-7r98r-lyob1hxjnblt43" alt="Men's Business Outfit">
+                            <p>Men's Business Outfit</p>
                         </div>
-                        <div class="outfit-card">
+                        <div class="outfit-card mens-sporty">
                             <img src="https://down-th.img.susercontent.com/file/th-11134207-7r98x-lo6c5i6tkflecc" alt="Men's Sporty Look">
                             <p>Men's Sporty Look</p>
                         </div>
@@ -70,16 +65,16 @@
                 <div class="category">
                     <h3>Women's Outfits</h3>
                     <div class="outfit-gallery">
-                        <div class="outfit-card">
-                            <img src="https://via.placeholder.com/300x200?text=Women's+Casual+Look" alt="Women's Casual Look">
-                            <p>Women Casual Look</p>
+                        <div class="outfit-card womens-casual">
+                            <img src="https://down-th.img.susercontent.com/file/sg-11134201-22120-wr4hnw29q9kv9f@resize_w450_nl.webp" alt="Women's Casual Look">
+                            <p>Women's Casual Look</p>
                         </div>
-                        <div class="outfit-card">
-                            <img src="https://down-th.img.susercontent.com/file/sg-11134201-7rdyg-lygx7d204foie4" alt="Women's Business Attire">
-                            <p>Women's Business Attire</p>
+                        <div class="outfit-card womens-business">
+                            <img src="https://down-th.img.susercontent.com/file/sg-11134201-7rdyg-lygx7d204foie4" alt="Women's Business Outfit">
+                            <p>Women's Business Outfit</p>
                         </div>
-                        <div class="outfit-card">
-                            <img src="https://via.placeholder.com/300x200?text=Women's+Sporty+Look" alt="Women's Sporty Look">
+                        <div class="outfit-card womens-sporty">
+                            <img src="https://down-th.img.susercontent.com/file/sg-11134201-7r9ac-ll4n00ut3l10e0@resize_w450_nl.webp" alt="Women's Sporty Look">
                             <p>Women's Sporty Look</p>
                         </div>
                     </div>
@@ -87,52 +82,146 @@
             </div>
         </section>
 
-        <section id="shopee">
+        <section id="shopee-products">
             <h2>Shopee Store</h2>
-            <div class="product-gallery">
-                <div class="product-card">
+            <class class="product-gallery">
+                <div class="product-card mens-business">
                     <a href="https://shopee.co.th/%E3%80%90COD%E3%80%91Long-Sleeve-Men's-Blouse-Casual-Business-Attire-No-Ironing-Crease-resistant-Slimming-Smooths-Your-Silhouette-Blue-B-i.1242815343.28757311899?sp_atk=5ec3fa2a-b3c4-4dfa-8be5-19dfebedd40e&xptdk=5ec3fa2a-b3c4-4dfa-8be5-19dfebedd40e" target="_blank">
-                        <img src="https://down-th.img.susercontent.com/file/th-11134201-7r98r-lyob1hxjnblt43" alt="Men Business Attire">
-                        <p>Men Business Attire</p>
+                        <img src="https://down-th.img.susercontent.com/file/th-11134201-7r98r-lyob1hxjnblt43" alt="Men's Business Outfit">
+                        <p>Men's Business Outfit</p>
                     </a>
                 </div>
-                <div class="product-card">
-                    <a href="https://shopee.co.th/(Set2-%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99)-%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%84%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%87%E0%B8%82%E0%B8%B2%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%94%E0%B8%B9%E0%B8%94%E0%B8%8B%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%AB%E0%B8%87%E0%B8%B7%E0%B8%AD%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B2%E0%B8%A2%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B9%87%E0%B8%A7-%E0%B8%A1%E0%B8%B5-6-%E0%B8%AA%E0%B8%B5%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81-i.212210773.2922290603?sp_atk=b12dd270-3686-4040-a20b-b8ce22063ff9&xptdk=b12dd270-3686-4040-a20b-b8ce22063ff9" target="_blank">
+                <div class="product-card mens-sporty">
+                    <a href="https://shopee.co.th/(Set2-%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99)-%E0%B8%9E%E0%B8%AA%E0%B8%B2%E0%B8%AA%E0%B8%84%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%87%E0%B8%82%E0%B8%B2%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%94%E0%B8%B9%E0%B8%94%E0%B8%8B%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%AB%E0%B8%87%E0%B8%B7%E0%B8%AD%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B2%E0%B8%A2%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87%E0%B9%80%E0%B9%87%E0%B8%A7-%E0%B8%A1%E0%B8%B5-6-%E0%B8%AA%E0%B8%B5%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81-i.212210773.2922290603?sp_atk=b12dd270-3686-4040-a20b-b8ce22063ff9&xptdk=b12dd270-3686-4040-a20b-b8ce22063ff9" target="_blank">
                         <img src="https://down-th.img.susercontent.com/file/th-11134207-7r98p-lo6c5i6k33led5" alt="Men's Sporty Look">
                         <p>Men's Sporty Look</p>
                     </a>
                 </div>
-                <div class="product-card">
-                    <a href="" target="_blank">
-                        <img src="https://down-th.img.susercontent.com/file/sg-11134301-7rd4q-lwe1k8oqytihe6" alt="Men's Casual Look">
+                <div class="product-card mens-casual">
+                    <a href="https://shopee.co.th/Incerun-%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%95%E0%B9%81%E0%B8%82%E0%B8%99%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%84%E0%B8%AD%E0%B8%9B%E0%B8%81-%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%A1-%E0%B8%AA%E0%B8%B5%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%8A%E0%B8%B2%E0%B8%A2-i.141921184.23249716767?sp_atk=887cf0d1-7440-403f-a65d-d403d1e7020d&xptdk=887cf0d1-7440-403f-a65d-d403d1e7020d" target="_blank">
+                        <img src="https://down-th.img.susercontent.com/file/sg-11134201-7qvf5-ljqgqmvv84gnb9@resize_w450_nl.webp" alt="Men's Casual Look">
                         <p>Men's Casual Look</p>
                     </a>
                 </div>
-                <!-- เพิ่มรายการสินค้าเพิ่มเติม -->
-                <div class="product-card">
-                    <a href="https://shopee.co.th/%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B8%A4%E0%B8%94%E0%B8%B9%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%82%E0%B8%99%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B9%82%E0%B8%A5%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%E0%B8%A5%E0%B9%8D%E0%B8%B2%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%9D%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B2%E0%B8%A2%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%99%E0%B8%A2%E0%B8%B7%E0%B8%99%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%9B%E0%B8%81%E0%B9%81%E0%B8%82%E0%B8%99%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AA%E0%B8%9A%E0%B8%B2%E0%B8%A2" target="_blank">
-                        <img src="https://down-th.img.susercontent.com/file/sg-11134301-7rd73-lwe1idix90966b" alt="Man Casual Look">
-                        <p>Man Casual Look</p>
+                <div class="product-card womens-business">
+                    <a href="https://shopee.co.th/Summer-Business-Attire-New-White-Shirt-Blue-Shirt-Chiffon-Shirt-Long-Sleeve-and-Short-Sleeve-Work-Clothes-Slim-Fit-Women's-Slimming-i.1285389876.25084295879?sp_atk=73bc38dd-4d50-43bf-bdd1-8bfaa24332cd&xptdk=73bc38dd-4d50-43bf-bdd1-8bfaa24332cd" target="_blank">
+                        <img src="https://down-th.img.susercontent.com/file/sg-11134201-7rdyg-lygx7d204foie4.webp" alt="Women business attire">
+                        <p>Women's business attire</p>
                     </a>
-                </div>
-                <div class="product-card">
-                    <a href="https://shopee.co.th/%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%95%E0%B9%81%E0%B8%82%E0%B8%99%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%A5%E0%B9%8D%E0%B8%B2%E0%B8%A5%E0%B8%AD%E0%B8%87-%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%9D%E0%B9%89%E0%B8%B2%E0%B8%A2-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%99-%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%A1-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%8A%E0%B8%B2%E0%B8%A2-%E0%B9%84%E0%B8%8B%E0%B8%8B%E0%B9%8C-M-4XL-i.662103741.15081196532?sp_atk=f0991c9a-0317-42cd-b47c-83a02ee25ec3&xptdk=f0991c9a-0317-42cd-b47c-83a02ee25ec3" target="_blank">
-                        <img src="https://down-th.img.susercontent.com/file/386150c75e48d88907619518f401b501" alt="Man Casual Look">
-                        <p>Man Casual Look</p>
+                 </div>
+                 <div class="product-card mens-business">
+                    <a href="https://shopee.co.th/KINS-%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%82%E0%B8%9B%E0%B9%82%E0%B8%A5%E0%B8%84%E0%B8%B4%E0%B8%99%E0%B8%AA%E0%B9%8C-%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A7%E0%B8%A1%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B8%E0%B8%A1-(%E0%B8%A3%E0%B8%AB%E0%B8%B1%E0%B8%AA-KN104)-i.24528990.24512186886?sp_atk=61311a1e-a98d-4904-a466-3b90a241fc12&xptdk=61311a1e-a98d-4904-a466-3b90a241fc12" target="_blank">
+                        <img src="https://down-th.img.susercontent.com/file/th-11134207-7r98u-lvesr7eqbxftbb@resize_w450_nl.webp" alt="Men's Business Outfit">
+                        <p>Men's Business Outfit</p>
                     </a>
-                </div>
-                <divclass= class="product-card">
-                    <a href="https://shopee.co.th/Summer-Business-Attire-New-White-Shirt-Blue-Shirt-Chiffon-Shirt-Long-Sleeve-and-Short-Sleeve-Work-Clothes-Slim-Fit-Women's-Slimming-i.1285389876.25084295879?sp_atk=46db451c-90eb-40a6-9d9e-3e177e8cf6b1&xptdk=46db451c-90eb-40a6-9d9e-3e177e8cf6b1" target="_blank">
-                        <img src="https://down-th.img.susercontent.com/file/sg-11134201-7rdyg-lygx7d204foie4" alt="Women Business Attire">
-                        <p>Women Business Attire</p>
+                 </div>
+                 <div class="product-card womens-casual">
+                    <a href="https://shopee.co.th/product/1058148232/22655231265?d_id=b4b09&uls_trackid=50os2nij00no&utm_content=23DwHopvfuu79iPnSAfq3x5g1VZZ" target="_blank">
+                        <img src="https://down-th.img.susercontent.com/file/sg-11134201-7rbm7-llul24oqomqr24.webp" alt="Men's Casual Look">
+                        <p>Women's Casual Look</p>
                     </a>
-                
-            </div>
+                 </div>
+                 <div class="product-card mens-casual">
+                    <a href="https://shopee.co.th/M-8xl-%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1-%E0%B9%88-%E0%B8%99%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5%E0%B8%A5%E0%B8%B2%E0%B8%A2-Oversize-Top-Men-Plus-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94-T-%E0%B9%80%E0%B8%AA%E0%B8%B7-%E0%B9%89-%E0%B8%AD%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%A1%E0%B8%AA%E0%B8%9A%E0%B8%B2%E0%B8%A2%E0%B9%86%E0%B9%81%E0%B8%82%E0%B8%99%E0%B8%AA%E0%B8%B1-%E0%B9%89-%E0%B8%99-Tee-i.834619982.24781180534?sp_atk=e78b94ac-1241-40e5-b710-2210310358f8&xptdk=e78b94ac-1241-40e5-b710-2210310358f8" target="_blank">
+                        <img src="https://down-th.img.susercontent.com/file/sg-11134201-7rd61-lvn9cmrbg10d06@resize_w450_nl.webp" alt="Men's Casual Look">
+                        <p>Men's Casual Look</p>
+                    </a>
+                 </div>
+                 <div class="product-card womens-casual">
+                    <a href="https://shopee.co.th/product/446091597/19391389253?d_id=235b3&uls_trackid=50osei7s002h&utm_content=1111DhkhvNbw12QAdGPdLaYdYb" target="_blank">
+                        <img src="https://down-th.img.susercontent.com/file/sg-11134201-7rd61-lva7r4u0t7j56f.webp" alt="Women casual look">
+                        <p>Women's Casual Look </p>
+                    </a>
+                 </div>
+                 <div class="product-card womens-casual">
+                    <a href="https://shopee.co.th/%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87-%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%E0%B8%84%E0%B8%A3%E0%B8%AD%E0%B8%9B%E0%B9%80%E0%B9%80%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-i.279437530.23261748758?sp_atk=32195e44-03cb-45d0-93e9-347e812fdd07&xptdk=32195e44-03cb-45d0-93e9-347e812fdd07" target="_blank">
+                        <img src="https://down-th.img.susercontent.com/file/sg-11134201-7rbmp-lom7iswf9kq21b.webp" alt="Women's Casual Look">
+                        <p>Women's Casual Look</p>
+                    </a>
+                 </div>
+                 <div class="product-card womens-casual">
+                    <a href="https://shopee.co.th/Smart-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87-%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B9%80%E0%B8%82%E0%B8%99%E0%B8%A2%E0%B8%B2%E0%B8%A7-SUTKPET-%E0%B9%81%E0%B8%82%E0%B8%99%E0%B8%88%E0%B8%B1%E0%B9%8A%E0%B8%A1%E0%B8%AA%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%99%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B23%E0%B8%95%E0%B8%B1%E0%B8%A7-%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%84%E0%B8%AD%E0%B8%95%E0%B8%95%E0%B8%AD%E0%B8%99-%E0%B9%83%E0%B8%AA%E0%B8%AA%E0%B8%9A%E0%B8%B2%E0%B8%A2-ST266-i.398795156.16491559082?sp_atk=f87caaa3-c2d1-465c-b930-a377e6132f66&xptdk=f87caaa3-c2d1-465c-b930-a377e6132f66" target="_blank">
+                        <img src="https://down-th.img.susercontent.com/file/sg-11134201-22120-wr4hnw29q9kv9f@resize_w450_nl.webp" alt="Womoen's Casual Look">
+                        <p>Women's Casual Look</p>
+                    </a>
+                 </div>
+                 <div class="product-card womens-business">
+                    <a href="https://shopee.co.th/Lovito-%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94-%E0%B9%81%E0%B8%82%E0%B8%99%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B8%E0%B8%A1%E0%B8%95%E0%B8%B4%E0%B8%94-%E0%B8%AA%E0%B8%B5%E0%B8%84%E0%B8%B1%E0%B8%A5%E0%B9%80%E0%B8%A5%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81-%E0%B8%AA%E0%B8%B5%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B8%A5%E0%B8%B3%E0%B8%A5%E0%B8%AD%E0%B8%87-%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-L47ED014-(%E0%B8%AA%E0%B8%B5%E0%B8%94%E0%B8%B3)-i.446091597.23633699383?sp_atk=b4ea7ee0-1760-49ea-aab5-180bcfddc065&xptdk=b4ea7ee0-1760-49ea-aab5-180bcfddc065" target="_blank">
+                        <img src="https://down-th.img.susercontent.com/file/sg-11134201-7rd4a-lvcoxkv7a65ac8@resize_w450_nl.webp" alt="Women's Business Outfit">
+                        <p>Women's Business Outfit</p>
+                    </a>
+                 </div>
+                 <div class="product-card womens-sporty">
+                    <a href="https://shopee.co.th/product/446091597/18791907678?d_id=235b3&uls_trackid=50osha3s002e&utm_content=1111Dhki5NwSkEkf6ysqhywyvo" target="_blank">
+                        <img src="https://down-th.img.susercontent.com/file/sg-11134201-7rd5b-lv8i7lzm7zl4af@resize_w450_nl.webp" alt="Women's Casual Look">
+                        <p>Women's Sporty Look</p>
+                    </a>
+                 </div>
+                 <div class="product-card mens-casual">
+                    <a href="https://shopee.co.th/product/196268298/25422246025?d_id=235b3&uls_trackid=50oshla6002e&utm_content=1111DhkiCdENSAH3iu945dbdKD" target="_blank">
+                        <img src="https://down-th.img.susercontent.com/file/sg-11134201-7qvfm-levl75zcb7bga7@resize_w450_nl.webp" alt="Men's Sporty Look">
+                        <p>Men's Casual Look</p>
+                    </a>
+                 </div>
+                 <div class="product-card womens-casual">
+                    <a href="https://shopee.co.th/%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD%E0%B9%80%E0%B8%9A%E0%B8%A5%E0%B8%B2%E0%B8%AA%E0%B9%81%E0%B8%82%E0%B8%99%E0%B8%AA%E0%B8%B1-%E0%B8%99%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%A2-%E0%B8%AD%E0%B8%99%E0%B8%A2%E0%B8%B8%E0%B8%84%E0%B8%A4%E0%B8%94%E0%B8%B9%E0%B8%A3-%E0%B8%AD%E0%B8%99-i.63366138.20978368455?sp_atk=9438a3a3-3809-4685-91ea-16f2f71854f2&xptdk=9438a3a3-3809-4685-91ea-16f2f71854f2" target="_blank">
+                        <img src="https://down-th.img.susercontent.com/file/sg-11134201-7qvdu-lfi614rzwl2sb8@resize_w450_nl.webp" alt="Women's Casual Look">
+                        <p>Women's Casual Look</p>
+                    </a>
+                 </div>
+                 <div class="product-card womens-business">
+                    <a href="https://shopee.co.th/Lovito-%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%E0%B8%A5%E0%B9%8D%E0%B8%B2%E0%B8%A5%E0%B8%AD%E0%B8%87-%E0%B8%AA%E0%B8%B5%E0%B8%95%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B1%E0%B8%99-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-L79AD149-i.446091597.24872229577?sp_atk=6be8396f-d109-4ffd-9888-a9cf5b0aa186&xptdk=6be8396f-d109-4ffd-9888-a9cf5b0aa186" target="_blank">
+                        <img src="https://down-th.img.susercontent.com/file/sg-11134201-7rdyl-lzr2ath6qpzbee.webp" alt="Women's Business Outfit">
+                        <p>Women's Business Outfit</p>
+                    </a>
+                 </div>
+                 <div class="product-card womens-casual">
+                    <a href="https://down-th.img.susercontent.com/file/th-11134207-7r992-lnend2i8jr5c2c@resize_w450_nl.webp" target="_blank">
+                        <img src="https://down-th.img.susercontent.com/file/th-11134207-7r992-lnend2i8jr5c2c@resize_w450_nl.webp" alt="Women's Casual Look">
+                        <p>Women's Casual Look</p>
+                    </a>
+                 </div>
+                 <div class="product-card womens-casual">
+                    <a href="https://shopee.co.th/product/561996461/14699785735?d_id=b4b09&uls_trackid=50osji42002h&utm_content=23DwHopvfvZ1EEWaMmdgGtif779h" target="_blank">
+                        <img src="https://down-th.img.susercontent.com/file/th-11134207-7r98z-lx14xcoo96sw1e@resize_w450_nl.webp" alt="Women's Casual Look">
+                        <p>Women's Casual Look</p>
+                    </a>
+                 </div>
+                 <div class="product-card womens-casual">
+                    <a href="https://shopee.co.th/%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B9%84%E0%B8%A7%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B9%84%E0%B8%97%E0%B8%A2-SELLDA-%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%84%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B8%A1-%E0%B9%81%E0%B8%82%E0%B8%99%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%96%E0%B8%B1%E0%B8%81-%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%81%E0%B9%8A%E0%B8%AD%E0%B8%95-%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-i.404620455.16583495601?sp_atk=82a06217-f666-4cda-9c67-5871b842204b&xptdk=82a06217-f666-4cda-9c67-5871b842204b" target="_blank">
+                        <img src="https://down-th.img.susercontent.com/file/87d40bb7adf14e953ca3b88fe2d496c2.webp" alt="Women's Casual Look">
+                        <p>Women's Casual Look</p>
+                    </a>
+                 </div>
+                 <div class="product-card womens-sporty">
+                    <a href="https://shopee.co.th/product/965385803/23478756126?d_id=235b3&uls_trackid=50oske1d005r&utm_content=1111Dhkign68MGDnGSjRFiwvpf" target="_blank">
+                        <img src="https://down-th.img.susercontent.com/file/sg-11134201-7r9ac-ll4n00ut3l10e0@resize_w450_nl.webp" alt="Women's Sporty Look">
+                        <p>Women's Sporty Look</p>
+                    </a>
+                 </div>
+                 <div class="product-card mens-casual">
+                    <a href="https://shopee.co.th/%EF%BC%88%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%95%E0%B8%A5%E0%B8%AD%E0%B8%94-24-%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B9%82%E0%B8%A1%E0%B8%87%EF%BC%89HY%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%E0%B8%9F%E0%B8%AD%E0%B8%81-%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%9D%E0%B9%89%E0%B8%B2%E0%B8%A2100-%E0%B9%82%E0%B8%AD%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%84%E0%B8%8B%E0%B8%8B%E0%B9%8C-%E0%B8%AA%E0%B8%B5%E0%B8%94%E0%B9%8D%E0%B8%B2%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%A1-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B8%AE%E0%B8%B4%E0%B8%9B%E0%B8%AE%E0%B8%AD%E0%B8%9B-%E0%B9%80%E0%B8%A3%E0%B9%82%E0%B8%97%E0%B8%A3%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%95%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-i.1221854149.26451465181?sp_atk=b9e4379e-2037-4c78-9f45-9688761f9a2e&xptdk=b9e4379e-2037-4c78-9f45-9688761f9a2e" target="_blank">
+                        <img src="https://down-th.img.susercontent.com/file/th-11134207-7r992-lx6k93lu8sen1e@resize_w450_nl.webp" alt="Men's Casual Look">
+                        <p>Men's Casual Look</p>
+                    </a>
+                 </div>
         </section>
     </main>
-
-    <footer id="contact">
-        <p>&copy; 2024 Fashion Outfit Selector. All rights reserved.</p>
-    </footer>
+    
+    <script>
+        // JavaScript coe for filtering products by selected category
+        document.getElementById('clothing-category').addEventListener('change', function() {
+            const selectedCategory = this.value;
+            const productCards = document.querySelectorAll('.product-card');
+            
+            productCards.forEach(card => {
+                if (selectedCategory === 'all' || card.classList.contains(selectedCategory)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+    </script>
 </body>
 </html>

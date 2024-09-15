@@ -1,14 +1,14 @@
 /* General Styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f8ff;
+    background-color: #f8d7da; /* Light pink background */
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ff7cac;
+    background-color: #ff7cac; /* Pink header */
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -18,7 +18,7 @@ header {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-.logo img {
+header .logo img {
     max-width: 150px;
     height: auto;
     border-radius: 8px;
@@ -48,20 +48,25 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
-    color: #ff69b4;
+    color: #ff69b4; /* Pink hover effect */
 }
 
 /* Main Content */
 main {
     padding: 20px;
+    background-color: #f8d7da; /* Pink background for main content */
 }
 
 section {
     margin-bottom: 40px;
+    background-color: #fff; /* White background for sections */
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
 h2 {
-    color: #ff7cac;
+    color: #ff7cac; /* Pink for section headers */
 }
 
 form {
@@ -88,7 +93,7 @@ form input, form select, form button {
 }
 
 form button {
-    background-color: #ff7cac;
+    background-color: #ff7cac; /* Pink button */
     color: #fff;
     border: none;
     cursor: pointer;
@@ -96,7 +101,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #e11d74;
+    background-color: #e11d74; /* Darker pink on hover */
 }
 
 /* Outfit Gallery */
@@ -180,7 +185,7 @@ form button:hover {
 
 /* Footer */
 footer {
-    background-color: #ff7cac;
+    background-color: #ff7cac; /* Pink footer */
     color: #fff;
     text-align: center;
     padding: 15px;
